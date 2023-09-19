@@ -1,0 +1,127 @@
+/* services */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+    
+   
+}
+#services{
+    padding: 30px 0;
+    
+    
+}
+.services{
+    display: flex;
+    grid-template-columns: repeat(auto-fit,minmax(250x,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+.serviceslist{
+     margin-top: 10vmin;
+    display: flex;
+    justify-content: space-evenly;
+}
+.serviceslist div{
+    background: rgb(202, 226, 20);
+    padding: 40px;
+    font-size:17px ;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s,transforn 0.5s;
+}
+.serviceslist div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+
+
+
+}
+.serviceslist div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.serviceslist div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.serviceslist div:hover{
+    background: #b8607c;
+    transform: translateY(-10px);
+
+}
+.social-icons a{
+    font-size: 50px;
+    margin-bottom: 30px;
+    transform: 0.5s;
+
+}
+/* contactleft */
+.contact-left{
+    flex-basis: 35%;
+
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+
+}
+.contact-left  i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+    
+}
+.social-icons a :hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+}
+.contact-right form{
+    width: 100%;
+
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width:100%;
+    text-align: center;
+    padding: 25px;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright i{
+    color: #ff004f;
+}
+nav.fa{
+    display: none;
+}
